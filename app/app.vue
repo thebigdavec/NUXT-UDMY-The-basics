@@ -21,7 +21,7 @@
   useSeoMeta({
     title:'Awesome app',
     ogTitle:'Awesome app',
-    description:'Some descript..',
+    description:'Some description..',
     ogDescription:'Some description....'
   })
 
