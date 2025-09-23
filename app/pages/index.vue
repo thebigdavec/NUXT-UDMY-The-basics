@@ -7,3 +7,13 @@
     <Other/>
 </template>
 
+<script setup>
+  
+    useHead({
+        link:[{
+            rel:'stylesheet',
+            href:'https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap-grid.min.css'
+        }]
+    })
+
+</script>
