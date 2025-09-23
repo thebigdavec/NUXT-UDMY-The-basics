@@ -1,5 +1,8 @@
 <template>
     <h1>Contact</h1>
+    <button @click="setPageLayout('default')">
+        Change layout
+    </button>
 </template>
 
 <script setup>
@@ -12,4 +15,9 @@
     useHead({
         titleTemplate:title
     })
+
+    definePageMeta({
+        layout:'secondary'
+    })
+
 </script>
