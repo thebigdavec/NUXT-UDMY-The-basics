@@ -1,17 +1,11 @@
 <template>
     <h1>Home</h1>
-    <NuxtLink 
-        :to="'https://google.com'" target="_blank"
-    >
-    Go to google</NuxtLink>
+    <Card/>
     <hr/>
-    <button @click="router.push('/contact')">
-        Go to contact
-    </button>
+    <UsersProfile/>
 </template>
 
 <script setup>
-    const router = useRouter();
-
-
+   // import Profile from '~/components/users/profile.vue';
+   import { UsersProfile } from '#components'
 </script>
