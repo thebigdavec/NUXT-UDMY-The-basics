@@ -1,11 +1,17 @@
 <template>
-    <h1>Home</h1>
+    <h1 :class="$style.blue">Home</h1>
     <Card/>
     <hr/>
     <Profile/>
     <hr/>
     <Other/>
 </template>
+
+<style module>
+    .blue {
+        color:blue
+    }
+</style>
 
 <script setup>
   
