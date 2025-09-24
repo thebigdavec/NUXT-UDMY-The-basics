@@ -1,0 +1,1 @@
+export { testComp } from './test/testComp';

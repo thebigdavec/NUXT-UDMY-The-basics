@@ -14,5 +14,7 @@
 </template>
 
 <script setup>
+    // import { testComp } from '~/composables/test/testComp';
     const users = getUsers('Miles')
+    console.log(testComp())
 </script>
