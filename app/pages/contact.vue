@@ -1,15 +1,5 @@
 <template>
     <h3>Contact</h3>
+    <p>{{ randomNumber(1,100) }}</p>
+    <p>{{ randomName() }}</p>
 </template>
-
-<script setup>
-    definePageMeta({
-        middleware:[
-            function(to,from){
-                console.log('LOCAL middleware')
-            },
-            'name'
-        ]
-    })
-
-</script>
