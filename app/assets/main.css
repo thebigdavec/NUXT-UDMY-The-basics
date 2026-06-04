@@ -1,0 +1,17 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, hr, li {
+    margin-block-start: 1em;
+}
