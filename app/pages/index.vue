@@ -1,13 +1,19 @@
+<script setup lang="ts">
+definePageMeta({
+    middleware: [
+        function(to, from) {
+            console.log('LOCAL middleware!');
+        }
+    ]
+})
+</script>
+
 <template>
-    <h1>Home</h1>
-    <hr>
-    <Card/>
-    <hr>
-    <UserProfile/>
+    <h2>Home</h2>
 </template>
 
 <style scoped>
-hr {
-    border: 1px solid light-dark(lightgreen, darkgreen);
-}
+    hr {
+        border: 1px solid light-dark(lightgreen, darkgreen);
+    }
 </style>

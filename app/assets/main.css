@@ -15,3 +15,9 @@ body {
 h1, h2, h3, h4, h5, h6, p, hr, li {
     margin-block-start: 1em;
 }
+
+.container {
+    padding: .4rem 1rem;
+    max-width: 1600px;
+    margin-inline: auto;
+}
